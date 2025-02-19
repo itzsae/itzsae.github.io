@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sae</title>
+  <link rel="stylesheet" href="css/css.css">
+  <meta name="p:domain_verify" content="d2895a75884999e3b38c93279f41b8c0"/>
+</head>
+<body>
+
+<div class="dark-overlay"></div>
+<div class="snowfall"></div>
+<div id="inspect-message">
+  <p>hi</p>
+</div>
+
+  <!-- Этап 1: экран приветствия -->
+  <div id="welcome-screen" class="welcome-screen">
+    <button id="enter-button" class="gradient-button">
+      <svg class="play-icon" viewBox="0 0 24 24" width="24" height="24">
+        <path fill="currentColor" d="M8 5v14l11-7z"/>
+      </svg>
+      <span>c l i c k</span>
+    </button>
+  </div>
+
+  <!-- Этап 2: основной контент -->
+  <div id="main-content" class="main-content" style="display: none;">
+    <div class="card" data-state="#about">
+      <div class="card-header">
+        <div class="card-cover" style="background-image: url('https://ibb.org.ru/images/2025/02/19/68633184b7e8cd388cf64e4baf721ae6.431x431x1.jpg')"></div>
+        <img class="card-avatar" src="https://ibb.org.ru/images/2025/02/19/68633184b7e8cd388cf64e4baf721ae6.431x431x1.jpg" alt="avatar" />
+        <h1 class="card-fullname">sae</h1>
+        <h2 class="card-jobtitle">Осколок вечности.</h2>
+
+        <div class="card-social">
+          <a href="https://steamcommunity.com/id/seromne/" target="_blank" class="social-button steam-button">
+            <img src="https://ibb.org.ru/images/2025/02/19/steam_bw.png" alt="Steam">
+          </a>
+          <a href="https://t.me/quasarexplosion/" target="_blank" class="social-button telegram-button">
+            <img src="https://ibb.org.ru/images/2025/02/19/tg_bw.png" alt="Telegram">
+          </a>
+          <a href="https://vk.com/zaebalo_eto_vse/" target="_blank" class="social-button vk-button">
+            <img src="https://ibb.org.ru/images/2025/02/19/vk_bw.png" alt="VK">
+          </a>
+          <a href="https://discord.gg/JBUjHU3GRX/" target="_blank" class="social-button discord-button">
+            <img src="https://ibb.org.ru/images/2025/02/19/ds_bw.png" alt="Discord">
+          </a>
+        </div>
+      </div>
+      <div class="card-main">
+        <div class="card-content"></div>
+        <p class="card-desc">
+          <span class="title">HQ LUA DEVELOPER</span>
+          <span class="languages">since 2017</span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Видео на фоне -->
+  <div id="video-background" class="video-background" style="display: none;">
+    <video id="background-video" loop playsinline>
+      <source src="video/background.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <script src="js/js.js"></script>
+
+</body>
+</html>
